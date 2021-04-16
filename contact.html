@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Planner</title>
+    <link rel="stylesheet" href="CSS/event_planning_style.css">
+    <link rel="stylesheet" href="CSS/contact_style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- font-awesome icons -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- //font-awesome icons -->
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+            <nav>
+                <div class="logo">
+                    <a href="index.html" class="logo_text">
+                        <img id="direction" class="image_style" src="Images/Memo3.png">
+                        <span>EVENT PLANNING</span>
+                        <img class="image_style" src="Images/Memo3.png">
+                    </a>
+                </div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="pageTitle">
+            <h2>Contact US</h2>
+        </div>
+    </header>
+    <main>
+        <section class="main_section">
+            <section class="contactwrap">
+                <p class="contacttitle">
+                    Feel free to drop us a line below!
+                </p>
+            </section>
+            <form class="contactform">
+                <section class="wrapinput">
+                    <p class="contactlabel">Full Name:</p>
+                    <input class="inputcontact" type="text" name="name" placeholder="Enter full name" required>
+                    <p class="contactfocusinput"></p>
+                </section>
+
+                <section class="wrapinput" data-validate="Valid email is required: ex@abc.com">
+                    <p class="contactlabel">Email:</p>
+                    <input class="inputcontact" type="text" name="email" placeholder="Enter email address" required>
+                    <p class="contactfocusinput"></p>
+                </section>
+
+                <section class="wrapinput" data-validate="Phone is required">
+                    <p class="contactlabel">Phone:</p>
+                    <input class="inputcontact" type="text" name="phone" placeholder="Enter phone number" required>
+                    <p class="contactfocusinput"></p>
+                </section>
+
+                <section class="wrapinput" data-validate="Message is required">
+                    <p class="contactlabel">Message:</p>
+                    <textarea class="inputcontact" type="text" name="message" placeholder="Your comment.."
+                        required></textarea>
+                    <p class="contactfocusinput"></p>
+                </section>
+
+                <section class="containerbtn">
+                    <button class="containerforbtn">
+                        <p>Submit<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i></p>
+                    </button>
+                </section>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <section class="section1">
+            <a href="tel:4524587896">
+                <img src="telephone-icon.jpg" alt="telephone" style="width:25px" title="Click to call">Contact us
+            </a>
+
+            <a href="mailto:rmishra@isi-mtl.com">
+                <img src="Email-icon.png" alt="Email" style="width:25px" title="Click to send mail">Email me
+                ritu.mishra@isi-mtl.com
+            </a>
+        </section>
+        <section class="section2">
+            <article class="aboutUs">
+                <p id="footer_font">ABOUT US</p>
+                <br />
+                <p id="footer_font">
+                    Organization, Details, Logistics <br />
+                    Three words that can spoil any bride or chair person’s special day. As a
+                    boutique company, we’re driven by a childlike excitement for what we do and a love of
+                    collaboration with our clients. It’s our goal to leave you and your guests with an event
+                    that exceeds expectations and lasts in your memories long after the last toast.
+                </p>
+            </article>
+            <article class="aboutUs">
+                <p class="newsletter" id="footer_font">NEWSLETTER</p>
+                <p class="newsletter" id="footer_font">
+                    Get the latest updated on our projects delivered to your inbox every month.
+                </p>
+                <input type="text" name="subscribe">
+                <input class="button" type="submit" value="Subscribe" id="submit">
+            </article>
+            <article class="social">
+                <p id="footer_font">WE ARE SOCIAL</p>
+                <ul>
+                    <li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/explore"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="https://www.pinterest.ca/"><i class="fa fa-pinterest"></i></a></li>
+                </ul>
+            </article>
+        </section>
+        <section class="section3">
+            <p id="footer_font">&#169; 2020 Event Planner. All rights reserved | Design by Gaurav & Ritu</p>
+        </section>
+    </footer>
+</body>
+
+</html>
